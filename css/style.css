@@ -40,9 +40,10 @@
 
 .container {
     max-width: 1330px;
-    margin: 0 auto;
+    margin: -16px auto;
     padding-left: 15px;
     padding-right: 15px;
+    background: #fff;
 }
 
 a {
@@ -89,11 +90,10 @@ p {
 .fixed-header {
     position: fixed;
     width: 100%;
-    z-index: 99;
+    z-index: 52;
     left: 0;
     top: 0;
     background-color: #fff;
-    box-shadow: 10px 10px 20px #fff;
 }
 
 header {
@@ -125,7 +125,8 @@ header {
 }
 
 .logo img {
-    width: 180px;
+    width: 144px;
+    height: 58px;
 }
 
 .menu a {
@@ -183,33 +184,33 @@ section.header-bg-parent {
 
 
 .header-col1 h5 {
-    color: #3b3663;
+    color: #f46914;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 .header-col1 h2 {
-    color: #3b3663;
+    color: #fff;
     font-size: 60px;
 }
 
 .header-col1 h2 {
-    color: #3b3663;
     font-size: 60px;
-    line-height: 43px;
+    line-height: 50px;
     margin: 21px 0px 15px;
 }
 
 .header-col1 p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     margin: 20px 0px 0px;
+    color: #fff;
 }
 
 button.common-btn {
-    background: linear-gradient(90deg, #8b81ef, #6759e8);
+    background: linear-gradient(90deg, #fe8a42, #f46914);
     padding: 15px 30px;
     color: #fff;
     border: none;
@@ -222,7 +223,7 @@ button.common-btn {
 }
 
 button.common-btn:hover {
-    background: linear-gradient(180deg, #6759e8, #8b81ef);
+    background: linear-gradient(180deg, #f46914, #fe8a42);
 }
 
 section.header-bg-parent:after {
@@ -267,7 +268,7 @@ section.header-bg-parent:after {
 }
 
 .feature-col:hover {
-    background-color: #3b3663;
+    background-color: #408d48;
 }
 
 .feature-col:hover h3 {
@@ -465,7 +466,7 @@ section#why-choose-us {
 }
 
 .expand-img-info h2 {
-    font-size: 46px;
+    font-size: 39px;
     font-weight: 800;
     font-family: "Nunito";
     line-height: 60px;
