@@ -158,7 +158,7 @@ header {
 section.header-bg-parent {
     position: relative;
     top: -83px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo2.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fondo3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -268,7 +268,7 @@ section.header-bg-parent:after {
 }
 
 .feature-col:hover {
-    background-color: #408d48;
+    background-color: #58c603;
 }
 
 .feature-col:hover h3 {
