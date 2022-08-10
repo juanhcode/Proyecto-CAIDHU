@@ -918,3 +918,8 @@ hr.footer-hr {
 #home{
     background-color:white;
 }
+
+
+#container-semillero{
+    display:flex;
+}
